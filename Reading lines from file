@@ -1,0 +1,3 @@
+with open("some_file.txt", "r") as f:
+    while line := f.readline():
+        print(line, end="")
